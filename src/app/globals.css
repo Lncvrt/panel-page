@@ -16,7 +16,7 @@ body {
 a {
   @apply flex flex-col items-center justify-center;
   @apply px-5 py-2.5 m-1 bg-[rgb(64,64,88)] border border-[rgb(88,88,112)] rounded-lg transition-all duration-200;
-  @apply hover:bg-[rgb(88,88,112)] hover:border-[rgb(112,112,136)] hover:-translate-y-px w-48 h-32 shadow shadow-[rgba(0,0,0,0.5)];
+  @apply hover:bg-[rgb(88,88,112)] hover:border-[rgb(112,112,136)] hover:-translate-y-0.5 w-48 h-32 shadow shadow-[rgba(0,0,0,0.5)];
 }
 
 a svg {
