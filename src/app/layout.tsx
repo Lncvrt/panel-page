@@ -17,6 +17,9 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang='en'>
+      <head>
+        <link rel="icon" type="image/png" href="https://cdn.lncvrt.xyz/pfp-round.png" />
+      </head>
       <body className={lexend.className}>{children}</body>
     </html>
   )
